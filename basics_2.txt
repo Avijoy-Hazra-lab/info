@@ -6,3 +6,9 @@ location /  {
         proxy_set_header Host $host;
         proxy_cache_bypass $http_upgrade;
     }
+
+
+
+cd etc/nginx/sites-available/
+ls
+sudo vim default
